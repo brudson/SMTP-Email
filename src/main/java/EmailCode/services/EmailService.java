@@ -11,7 +11,13 @@ import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
 /**
- * Created by blarsen on 9/9/2016.
+ * This service sets up an SMTP connection using your google account to send emails.
+ *
+ * Feel free to email me if you have any questions or errors.
+ *
+ * @author Bradley Larsen <blarsen@catalystdevworks.com> on 9/9/2016.
+ * @version 1.0
+ * @since 1.0
  */
 @Service
 public class EmailService {
@@ -20,6 +26,13 @@ public class EmailService {
 
     public void sendEmail(final NotificationPOJO notificationPOJO) throws MessagingException{
 
+
+        /**
+         * !!!IMPORTANT!!!
+         *
+         * Change the username and email to your personal gmail.
+         * This will allow you to use googles smtp server
+         */
         final String username = "gmail account";
         final String password = "gmail password";
 
@@ -36,6 +49,7 @@ public class EmailService {
                         return new PasswordAuthentication(username, password);
                     }
                 });
+
         Message message = new MimeMessage(session);
         Transport transport = session.getTransport();
 
@@ -44,7 +58,6 @@ public class EmailService {
         for(String address : notificationPOJO.getRecipientAddresses()){
 
             try {
-                message.setFrom(new InternetAddress("Overwatch@catalystdevworks.com"));
                 message.setSubject(notificationPOJO.getSubject());
                 message.setText(notificationPOJO.getBody());
 
@@ -53,7 +66,6 @@ public class EmailService {
                 LOGGER.info("Finished sending the email to: " + address);
 
             } catch (MessagingException e) {
-                LOGGER.info("ERROR: " + address + ": is an invalid email");
                 LOGGER.info("email exception", e);
             }
 

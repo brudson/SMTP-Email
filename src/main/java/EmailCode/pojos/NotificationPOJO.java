@@ -1,7 +1,13 @@
 package EmailCode.pojos;
 
 /**
- * Created by blarsen on 9/9/2016.
+ * This class will hold all the necessary data to send an email.
+ *
+ * Including: Email subject line, email body, and an array of recipients email addresses.
+ *
+ * @author Bradley Larsen <blarsen@catalystdevworks.com> on 9/9/2016.
+ * @version 1.0
+ * @since 1.0
  */
 public class NotificationPOJO {
 

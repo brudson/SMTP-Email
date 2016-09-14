@@ -12,7 +12,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.mail.MessagingException;
 
 /**
- * Created by blarsen on 9/13/2016.
+ * A rest endpoint to use your emailService. Using a program like Postman, you
+ * can make a POST request to this endpoint to kick off your emails. An example
+ * JSON can be found in the ReadMe.
+ *
+ * @author Bradley Larsen <blarsen@catalystdevworks.com> on 9/9/2016.
+ * @version 1.0
+ * @since 1.0
  */
 @Controller
 public class EmailEndpoint {
