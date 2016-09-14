@@ -22,7 +22,7 @@ Postman Steps:
 
 7. Hit the blue send button and check your email (should take 5 to 10 seconds to finish)
 
-example POJO to use in Postman:
+example JSON to use in Postman:
 
 {
 "recipientAddresses":["someone@something.com", "someoneElse@somethingElse.com],
