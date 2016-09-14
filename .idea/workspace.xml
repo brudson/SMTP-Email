@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2086280d-8e4c-4fa7-8ec5-dcb0bff2db32" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmailCode/controllers/EmailEndpoint.class" afterPath="$PROJECT_DIR$/target/classes/EmailCode/controllers/EmailEndpoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmailCode/pojos/NotificationPOJO.class" afterPath="$PROJECT_DIR$/target/classes/EmailCode/pojos/NotificationPOJO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmailCode/services/EmailService$1.class" afterPath="$PROJECT_DIR$/target/classes/EmailCode/services/EmailService$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmailCode/services/EmailService.class" afterPath="$PROJECT_DIR$/target/classes/EmailCode/services/EmailService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/EmailCode/controllers/EmailEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/EmailCode/controllers/EmailEndpoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/EmailCode/pojos/NotificationPOJO.java" afterPath="$PROJECT_DIR$/src/main/java/EmailCode/pojos/NotificationPOJO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/EmailCode/services/EmailService.java" afterPath="$PROJECT_DIR$/src/main/java/EmailCode/services/EmailService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="example_notification_service.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,8 +93,8 @@
       <file leaf-file-name="EmailService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/EmailCode/services/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="35" column="46" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="46" />
+            <state relative-caret-position="260">
+              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1393#1627#0" expanded="true" />
@@ -845,12 +838,12 @@
       <updated>1473438251405</updated>
       <workItem from="1473438255292" duration="949000" />
       <workItem from="1473806434890" duration="3978000" />
-      <workItem from="1473872838959" duration="2312000" />
+      <workItem from="1473872838959" duration="2373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7239000" />
+    <option name="totallyTimeSpent" value="7300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-8" width="1872" height="1096" extended-state="6" />
@@ -1047,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EmailCode/services/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="260">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1393#1627#0" expanded="true" />
